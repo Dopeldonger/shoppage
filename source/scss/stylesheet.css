@@ -11,17 +11,17 @@ html {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    padding-top: 34px;
     padding-left: 119px;
 }
 .logo {
-    padding-left: 119px;
-    margin-bottom: 53px;
+    padding-left: 122px;
 }
 .line {
     margin-top: 1000px;
 
 }
+.logo img {
+    margin-bottom: 46px;}
 
 .nav__list {
     display: flex;
@@ -40,9 +40,10 @@ li a{text-decoration: none;
     line-height: 100%;
     }
 .nav__list li {
-    margin-bottom: 30px;
+    margin-bottom: 34px;
 }
 li a:hover {
+    cursor: pointer;
     color: #FF9846;
 }
 li a:focus {
@@ -50,4 +51,7 @@ li a:focus {
 }
 li .active:after {vertical-align: super;
     content: url("../img/soon.jpg")
+}
+li .active {
+    margin-bottom: 25px;
 }
