@@ -1,0 +1,53 @@
+body {
+    margin: 0 auto;
+}
+
+html {
+    box-sizing: border-box;
+}
+.mainwrapper {max-width: 1900px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 34px;
+    padding-left: 119px;
+}
+.logo {
+    padding-left: 119px;
+    margin-bottom: 53px;
+}
+.line {
+    margin-top: 1000px;
+
+}
+
+.nav__list {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav__list {
+    list-style: none;
+    padding-left: 179px;
+}
+li a{text-decoration: none;
+    color: #000000;
+    font-family: "DIN Pro", sans-serif;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 100%;
+    }
+.nav__list li {
+    margin-bottom: 30px;
+}
+li a:hover {
+    color: #FF9846;
+}
+li a:focus {
+    color: #FF9846;
+}
+li .active:after {vertical-align: super;
+    content: url("../img/soon.jpg")
+}
