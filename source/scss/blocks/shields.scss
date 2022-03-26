@@ -1,0 +1,17 @@
+.shields {
+  right: 0;
+  top: 0;
+  position: absolute;
+}
+
+.shields__soon {
+  background-color: #EB5757;
+  font-size: 11px;
+  text-transform: uppercase;
+  color: white;
+  padding: 0 8px;
+  height: 15px;
+  white-space: nowrap;
+  line-height: 14px;
+  border-radius: 10px;
+}
