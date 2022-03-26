@@ -1,3 +1,12 @@
-@import url('/source/scss/utils/fonts.scss');
-@import url('/source/scss/utils/mixins.scss');
-@import url('/source/scss/utils/vars.scss');
+@import "utils/vars";
+@import "utils/mixins";
+@import "utils/fonts";
+@import "normalize.scss";
+
+
+
+
+
+
+@import "blocks/nav";
+@import "blocks/shields";

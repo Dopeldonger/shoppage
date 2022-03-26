@@ -4,20 +4,20 @@
     font-family: "DINpro";
     font-style: normal;
     font-weight: 500;
-    url('DINPro-Medium.woff') format('woff'),
+    src: url('../fonts/DINPro-Medium.woff') format('woff');
 }
 
 @font-face {
   font-family: "DINpro";
   font-style: normal;
   font-weight: 300;
-  url('DINPro-Light.woff') format('woff'),
+  src: url('../fonts/DINPro-Light.woff') format('woff');
 }
 
 @font-face {
   font-family: "DINpro";
   font-style: normal;
-  font-weight: bold;
-  url('DINPro-CondensedBold.woff') format('woff'),
+  font-weight: 700;
+  src: url('../fonts/DINPro-CondensedBold.woff') format('woff');
 }
 
