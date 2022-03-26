@@ -16,9 +16,9 @@ html {
 .logo {
     padding-left: 122px;
 }
-.line {
-    margin-top: 1000px;
-
+.line {position: absolute;
+    top: 157px;
+    left: 215px;
 }
 .logo img {
     margin-bottom: 46px;}
@@ -49,7 +49,7 @@ li a:hover {
 li a:focus {
     color: #FF9846;
 }
-li .active:after {vertical-align: super;
+li .active:after {
     content: url("../img/soon.jpg")
 }
 li .active {
