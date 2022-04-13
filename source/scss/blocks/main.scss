@@ -3,3 +3,121 @@
   background-color: #F2F2F2;
   margin-right: 40px;
 }
+
+.header-wrapper {
+  display: flex;
+  margin: 0 auto ;
+  justify-content: flex-start;
+  padding-left: 30px;
+}
+h1 {
+  margin: 0 auto;
+  text-align: center;
+  font-family: $main-font;
+  font-style: $main-font-style;
+  font-size: $main-font-size;
+  line-height: $main-line-height;
+  font-weight: 500;
+  color: #111111;
+}
+.phone {
+  margin: 0 0 0 15px;
+  font-family: $main-font;
+  font-style: $main-font-style;
+  font-size: $main-font-size;
+  line-height: $main-line-height;
+  font-weight: 500;
+  color: $orange
+}
+.work-time {
+  margin: 5px 0 8px 0;
+  font-family: $main-font;
+  font-style: $main-font-style;
+  font-size: 14px;
+  line-height: $main-line-height;
+  font-weight: 500;
+  color: $gray
+}
+.choose-city {
+  padding: 17px 0 0 11px;
+}
+.city {
+  font-family: $main-font;
+  font-style: $main-font-style;
+  font-size: 14px;
+  line-height: $main-line-height;
+  font-weight: 300;
+  color: $gray;
+  margin: 0 0 9px 0;
+}
+.choose-city p {
+  margin: 0 auto;
+}
+.choose-city a {
+  text-decoration: none;
+  font-family: $main-font;
+  font-style: $main-font-style;
+  font-size: $main-font-size;
+  line-height: $main-line-height;
+  font-weight: $main-font-weight;
+  color: black;
+}
+.choose-city a:hover {
+  cursor: pointer;
+  color: #FF9846;
+}
+.choose-city a:focus {
+  color: #FF9846;
+}
+.contact {
+  padding-right: 27px;
+  border-right: 0.5px solid gray;
+}
+.review-delivery {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 28px 136px 0 auto;
+}
+
+.review {
+  margin: 0 10px 0 0;
+}
+.delivery {
+  margin: 0;
+}
+.review a {
+  text-decoration: none;
+  font-family: $main-font;
+  font-style: $main-font-style;
+  font-size: $main-font-size;
+  line-height: $main-line-height;
+  font-weight: $main-font-weight;
+  color: black;
+}
+.delivery a {
+  text-decoration: none;
+  font-family: $main-font;
+  font-style: $main-font-style;
+  font-size: $main-font-size;
+  line-height: $main-line-height;
+  font-weight: $main-font-weight;
+  color: black;
+}
+.review a:hover {
+  cursor: pointer;
+  color: #FF9846;
+}
+
+.review a:focus {
+  color: #FF9846;
+}
+
+.delivery a:focus {
+  color: #FF9846;
+}
+
+.delivery a:hover {
+  cursor: pointer;
+  color: #FF9846;
+}

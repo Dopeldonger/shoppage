@@ -1,15 +1,34 @@
 @import "utils/vars";
 @import "utils/mixins";
 @import "utils/fonts";
-@import "normalize.scss";
-
-
-
-
-
+@import "normalize";
 
 @import "blocks/nav";
 @import "blocks/shields";
 @import "blocks/logo";
 @import "blocks/main";
 @import "blocks/side";
+
+html {
+  box-sizing: border-box;
+  line-height: $main-line-height;
+  font-size: $main-font-size;
+}
+body {
+  font-family:$main-font;
+  font-size: $main-font-size;
+  font-weight: $main-font-weight;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.mainwrapper {max-width: 1920px;
+  width: 100%;
+  height: 2295px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-start;
+}
