@@ -4,11 +4,12 @@
   margin-right: 40px;
 }
 
-.header-wrapper {
+.header__wrapper {
   display: flex;
   margin: 0 auto ;
   justify-content: flex-start;
   padding-left: 30px;
+  border-bottom: 0.5px solid gray;
 }
 h1 {
   margin: 0 auto;
@@ -38,8 +39,10 @@ h1 {
   font-weight: 500;
   color: $gray
 }
-.choose-city {
-  padding: 17px 0 0 11px;
+.info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .city {
   font-family: $main-font;
@@ -50,10 +53,10 @@ h1 {
   color: $gray;
   margin: 0 0 9px 0;
 }
-.choose-city p {
+.city-value {
   margin: 0 auto;
 }
-.choose-city a {
+.city-value {
   text-decoration: none;
   font-family: $main-font;
   font-style: $main-font-style;
@@ -62,11 +65,11 @@ h1 {
   font-weight: $main-font-weight;
   color: black;
 }
-.choose-city a:hover {
+.city-value:hover {
   cursor: pointer;
   color: #FF9846;
 }
-.choose-city a:focus {
+.city-value:focus {
   color: #FF9846;
 }
 .contact {
@@ -77,7 +80,6 @@ h1 {
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
-  margin: 28px 136px 0 auto;
 }
 
 .review {
@@ -120,4 +122,92 @@ h1 {
 .delivery a:hover {
   cursor: pointer;
   color: #FF9846;
+}
+.search {
+  text-decoration: none;
+  font-family: $main-font;
+  font-style: $main-font-style;
+  font-size: $main-font-size;
+  line-height: $main-line-height;
+  font-weight: $main-font-weight;
+  color: black;
+}
+.search-submit:focus {
+  color: #FF9846;
+}
+
+.search-submit:hover {
+  cursor: pointer;
+  color: #FF9846;
+}
+
+.categories {
+  margin-top: 550px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.categories-img {
+  margin: 0 30px 30px 0;
+}
+.photocard-wrapper {
+  display: flex;
+  justify-content: center;
+}
+.photocard {
+  background-color: white;
+  width: 289px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 41px;
+  padding-left: 13px;
+  position: relative;
+}
+.photocard img {
+  margin-bottom: 30px;
+}
+.photocard h4 {
+  margin: 0 0 30px 0;
+  color: black;
+  font-family: $main-font;
+  font-style: $main-font-style;
+  font-size: 24px;
+  line-height: $main-line-height;
+}
+.photocard aside {
+  margin: 0 0  38px 0;
+  color: $gray;
+  font-family: $main-font;
+  font-style: $main-font-style;
+  font-size: $main-font-size;
+  line-height: $main-line-height;
+}
+.photocard-access aside {
+  color: $black;
+  font-family: $main-font;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: $main-line-height;
+  margin: 0;
+}
+.description {
+}
+.description h3 {
+  margin-top: 50px;
+  margin-bottom: 10px;
+  color: $gray;
+  font-family: $main-font;
+  font-style: $main-font-style;
+  font-size: 24px;
+  line-height: $main-line-height;
+  font-weight: 700;
+}
+.description p {
+  color: $gray;
+  font-family: $main-font;
+  font-style: $main-font-style;
+  font-size: 18px;
+  line-height: $main-line-height;
+  font-weight: 400;
 }
