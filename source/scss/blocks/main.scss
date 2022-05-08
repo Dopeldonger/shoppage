@@ -141,15 +141,6 @@ h1 {
   color: #FF9846;
 }
 
-.categories {
-  margin-top: 550px;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-.categories-img {
-  margin: 0 30px 30px 0;
-}
 .photocard-wrapper {
   display: flex;
   justify-content: center;
@@ -166,14 +157,16 @@ h1 {
 .photocard img {
   margin-bottom: 30px;
 }
-.photocard h4 {
-  margin: 0 0 30px 0;
-  color: black;
+
+.photocard__subtitle {
+/*  margin: 0 0 30px 0;*/
+/*  color: black;
   font-family: $main-font;
   font-style: $main-font-style;
   font-size: 24px;
-  line-height: $main-line-height;
+  line-height: $main-line-height;*/
 }
+
 .photocard aside {
   margin: 0 0  38px 0;
   color: $gray;
@@ -191,9 +184,19 @@ h1 {
   line-height: $main-line-height;
   margin: 0;
 }
+
 .description {
+  p {
+    color: $gray;
+    font-family: $main-font;
+    font-style: $main-font-style;
+    font-size: 18px;
+    line-height: $main-line-height;
+    font-weight: 400;
+  }
 }
-.description h3 {
+
+.description__title {
   margin-top: 50px;
   margin-bottom: 10px;
   color: $gray;
@@ -202,12 +205,4 @@ h1 {
   font-size: 24px;
   line-height: $main-line-height;
   font-weight: 700;
-}
-.description p {
-  color: $gray;
-  font-family: $main-font;
-  font-style: $main-font-style;
-  font-size: 18px;
-  line-height: $main-line-height;
-  font-weight: 400;
 }

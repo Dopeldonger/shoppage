@@ -8,6 +8,10 @@
 @import "blocks/logo";
 @import "blocks/main";
 @import "blocks/side";
+@import "blocks/categories";
+@import "blocks/photocard";
+@import "blocks/button";
+@import "blocks/slider";
 
 html {
   box-sizing: border-box;
@@ -15,7 +19,7 @@ html {
   font-size: $main-font-size;
 }
 body {
-  font-family:$main-font;
+  font-family: $main-font;
   font-size: $main-font-size;
   font-weight: $main-font-weight;
   margin: 0;
@@ -31,4 +35,9 @@ body {
   margin: 0 auto;
   display: flex;
   justify-content: flex-start;
+}
+
+.inner-wrapper {
+  max-width: 950px;
+  margin: 0 auto;
 }

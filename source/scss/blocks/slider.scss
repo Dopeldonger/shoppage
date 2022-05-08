@@ -1,0 +1,12 @@
+.slider {
+  margin-bottom: 32px;
+}
+
+.slider__wrapper {
+  position: relative;
+  padding-bottom: 35px;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: $orange !important;
+}
