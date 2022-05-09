@@ -1,0 +1,30 @@
+.button {
+  font-size: 13px;
+  height: 42px;
+  padding: 8px;
+  border-radius: 4px;
+  background-color: $white;
+  color: $black;
+  white-space: nowrap;
+  border: 1px solid $black;
+  cursor: pointer;
+  transition: all 300ms ease-in-out;
+
+  &:hover {
+    background-color: $black;
+    color: $white;
+    border-color: $black;
+  }
+
+  &--to-cart {
+    background-color: red;
+    color: $white;
+    border-color: red;
+
+    &:hover {
+      border-color: $white;
+      background-color: $white;
+      color: red;
+    }
+  }
+}

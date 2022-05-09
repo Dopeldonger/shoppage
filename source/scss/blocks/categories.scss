@@ -1,0 +1,27 @@
+.categories {
+  margin-bottom: 52px;
+}
+
+.categories__wrapper {
+  max-width: 950px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 30px;
+}
+
+.categories__block {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 450px;
+  width: 100%;
+
+  &--extended {
+    max-width: 470px;
+  }
+}
+
