@@ -1,5 +1,5 @@
 .slider {
-  margin-bottom: 32px;
+  margin-bottom: 10px;
 }
 
 .slider__wrapper {
@@ -9,4 +9,7 @@
 
 .swiper-pagination-bullet-active {
   background-color: $orange !important;
+}
+.swiper-pagination {
+  margin-bottom: 8px;
 }

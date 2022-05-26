@@ -1,0 +1,40 @@
+.photocard-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 41px;
+}
+.photocard {
+  background-color: white;
+  max-width: 289px;
+  width: 100%;
+  height: 397px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+.photocard__img {
+  margin-bottom: 30px;
+}
+
+.photocard__title {
+  margin: 0 0 30px 0;
+  color: black;
+  font-size: 24px;
+}
+
+.photocard__subtittle {
+  color: $gray;
+  margin: 0;
+}
+.photocard__access p {
+  color: $black;
+  font-family: $main-font;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: $main-line-height;
+  margin: 0;
+}

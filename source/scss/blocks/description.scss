@@ -1,0 +1,16 @@
+.description {
+  margin: 0 auto;
+  p {
+    color: $gray;
+    font-size: 18px;
+    font-weight: 400;
+  }
+}
+
+.description__title {
+  margin-top: 50px;
+  margin-bottom: 10px;
+  color: $gray;
+  font-size: 24px;
+  font-weight: 700;
+}
