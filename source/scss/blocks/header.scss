@@ -5,6 +5,7 @@
   padding-left: 30px;
   border-bottom: 0.5px solid gray;
 }
+
 h1 {
   margin: 0 auto;
   text-align: center;
@@ -15,46 +16,40 @@ h1 {
   font-weight: 500;
   color: #111111;
 }
+
 .phone {
   margin: 0 0 0 15px;
   font-weight: 500;
   color: $orange
 }
+
 .work-time {
   margin: 5px 0 8px 0;
   font-size: 14px;
   font-weight: 500;
   color: $gray
 }
-.info {
+
+.header__info {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-top: 17px;
+  padding-left: 10px;
 }
+
 .city {
   font-size: 14px;
   font-weight: 300;
   color: $gray;
-  margin: 0 0 9px 0;
-}
-.city-value {
   margin: 0 auto;
 }
-.city-value {
-  text-decoration: none;
-  color: black;
-}
-.city-value:hover {
-  cursor: pointer;
-  color: #FF9846;
-}
-.city-value:focus {
-  color: #FF9846;
-}
+
 .contact {
   padding-right: 27px;
   border-right: 0.5px solid gray;
 }
+
 .review-delivery {
   display: flex;
   justify-content: flex-start;
@@ -64,17 +59,25 @@ h1 {
 .review {
   margin: 0 10px 0 0;
 }
+
 .delivery {
   margin: 0;
 }
-.review a {
-  text-decoration: none;
-  color: black;
+
+.review {
+  a {
+    text-decoration: none;
+    color: black;
+  }
 }
-.delivery a {
-  text-decoration: none;
-  color: black;
+
+.delivery {
+  a {
+    text-decoration: none;
+    color: black;
+  }
 }
+
 .review a:hover {
   cursor: pointer;
   color: #FF9846;
@@ -89,18 +92,6 @@ h1 {
 }
 
 .delivery a:hover {
-  cursor: pointer;
-  color: #FF9846;
-}
-.search {
-  text-decoration: none;
-  color: black;
-}
-.search-submit:focus {
-  color: #FF9846;
-}
-
-.search-submit:hover {
   cursor: pointer;
   color: #FF9846;
 }

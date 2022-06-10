@@ -1,5 +1,8 @@
 .slider {
   margin-bottom: 10px;
+  @media screen and (max-width: $mobileWidth) {
+    display: none;
+  }
 }
 
 .slider__wrapper {
@@ -10,6 +13,7 @@
 .swiper-pagination-bullet-active {
   background-color: $orange !important;
 }
+
 .swiper-pagination {
   margin-bottom: 8px;
 }

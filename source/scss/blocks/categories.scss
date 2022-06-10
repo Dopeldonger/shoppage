@@ -1,5 +1,5 @@
 .categories {
-  margin-bottom: 52px;
+  margin-bottom: 48px;
 }
 
 .categories__wrapper {
@@ -23,5 +23,25 @@
   &--extended {
     max-width: 470px;
   }
+
+  @media screen and (max-width: $mobileWidth) {
+    max-width: none;
+    justify-content: flex-start;
+    &--extended {
+      max-width: none;
+    }
+  }
 }
 
+.categories-img {
+  img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+  }
+
+  @media screen and (max-width: $mobileWidth) {
+    display: block;
+    width: 100%;
+  }
+}

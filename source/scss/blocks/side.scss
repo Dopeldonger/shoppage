@@ -1,8 +1,11 @@
 .side-block {
   width: 290px;
   padding-top: 40px;
-
+  @media screen and (max-width: $mobileWidth) {
+    display: none;
+  }
 }
+
 .side_h {
   text-align: center;
   margin: 0 auto;
@@ -12,7 +15,8 @@
   line-height: 18px;
 
 }
-.side_p{
+
+.side_p {
   text-align: center;
   font-family: "DIN Pro", sans-serif;
   font-style: normal;

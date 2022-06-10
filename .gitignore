@@ -3,3 +3,4 @@ package-lock.json
 .idea/
 .parcel-cache/
 dist/
+package.json

@@ -2,7 +2,11 @@
 .nav-block {
   padding: 15px 0 0 15px;
   margin-right: 30px;
+  @media screen and (max-width: $mobileWidth) {
+    display: none;
+  }
 }
+
 .nav__list {
   display: flex;
   flex-direction: column;
@@ -12,7 +16,9 @@
   margin-left: 55px;
 
 }
-li a{text-decoration: none;
+
+li a {
+  text-decoration: none;
   position: relative;
   color: #000000;
   font-family: "DIN Pro", sans-serif;
@@ -20,15 +26,18 @@ li a{text-decoration: none;
   font-size: 24px;
   line-height: 100%;
 }
+
 .nav__list li {
   margin-bottom: 30px;
   position: relative;
   height: 30px;
 }
+
 li a:hover {
   cursor: pointer;
   color: #FF9846;
 }
+
 li a:focus {
   color: #FF9846;
 }

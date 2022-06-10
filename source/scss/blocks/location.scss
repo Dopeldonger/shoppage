@@ -1,19 +1,26 @@
-.location{
+.location {
   background-color: #F2F2F2;
   margin: 0 auto;
   position: relative;
 }
-.location h3 {
-  margin-bottom: 18px;
+
+.location {
+  h3 {
+    margin-bottom: 18px;
+  }
 }
-.location p {
-  margin: 0 auto;
-  padding-bottom: 5px;
+
+.location {
+  p {
+    margin: 0 auto;
+    padding-bottom: 10px;
+  }
 }
 
 .loc {
   margin-bottom: 40px;
 }
+
 .ellips {
   display: flex;
   justify-content: center;
