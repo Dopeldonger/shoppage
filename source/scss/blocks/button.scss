@@ -79,6 +79,7 @@
   border: 0;
   line-height: 100%;
   color: black;
+  padding: 1px;
 
   &:active {
     cursor: pointer;
@@ -97,15 +98,25 @@
 }
 .search__button {
   border: none;
+  margin-right: 34px;
+  padding-top: 8px;
+  &:hover {
+    cursor: pointer;
+    color: #FF9846;
+  }
 }
 .swipe-left__button {
   background-color: black;
   padding: 15px;
-  border-radius: 50%
+  border-radius: 50%;
+  min-width: 60px;
+  height: 60px;
 
 }
 .swipe-right__button {
   background-color: black;
   padding: 15px;
-  border-radius: 50%
+  border-radius: 50%;
+  min-width: 60px;
+  height: 60px;
 }

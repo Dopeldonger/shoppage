@@ -1,13 +1,16 @@
 .shopping-cart {
   background-color: #F2F2F2;
+  height: 140px;
+  border-radius: 5px;
 }
 
 .cart_tittle {
-  padding-top: 22px;
+  padding-top: 19px;
+  margin-bottom: 19px;
 }
 
 .cart_text {
-  margin-bottom: 30px;
+  margin: 0 auto 28px;
 }
 
 .banner {
@@ -15,9 +18,9 @@
   font-family: "DIN Pro", sans-serif;
   font-style: normal;
   font-size: 14px;
-  line-height: 14px;
+  line-height: 18px;
   color: white;
   background-color: #FF9846;
-  padding: 12px;
-  margin-bottom: 20px;
+  padding: 11px;
+  border-radius: 0 0 5px 5px;
 }
