@@ -22,7 +22,11 @@
 @import "blocks/contacts";
 @import "blocks/communication";
 @import "blocks/icons";
-
+@import "blocks/contact";
+@import "blocks/hometown";
+@import "blocks/review-delivery";
+@import "blocks/header__info";
+@import "blocks/description__button";
 html {
   box-sizing: border-box;
   line-height: $main-line-height;

@@ -1,0 +1,28 @@
+.contact__title {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 500;
+  color: #111111;
+}
+
+.contact__phone {
+  margin: 0 auto 5px;
+  font-weight: 500;
+  color: $orange;
+  text-align: center;
+}
+
+.contact__work-time {
+  margin: 0 0 5px 0;
+  font-size: 14px;
+  font-weight: 500;
+  color: $gray;
+  white-space: nowrap;
+}
+.contact {
+  padding-right: 17px;
+  border-right: 1.5px solid rgba(164,172,173, 0.3);
+  width: 220px;
+}

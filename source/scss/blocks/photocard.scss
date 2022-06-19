@@ -1,12 +1,12 @@
-.photocard-wrapper {
+.photocard__wrapper {
   display: flex;
   justify-content: center;
   align-items: flex-start;
   gap: 41px;
-  margin-bottom: 60px;
+  margin-bottom: 50px;
 }
 
-.photocard {
+.photocard__card {
   background-color: white;
   max-width: 289px;
   width: 100%;
@@ -72,4 +72,60 @@
   height: 60px;
   width: 60px;
   align-self: center;
+}
+.photocard__button__novelty {
+  font-size: 24px;
+  height: 30px;
+  color: $black;
+  white-space: nowrap;
+  cursor: pointer;
+  border: 0;
+  margin: 0 26px 0 0;
+  line-height: 30px;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 0;
+}
+
+.photocard__button__popular {
+  height: 30px;
+  color: #a4acad;
+  white-space: nowrap;
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 30px;
+  padding-bottom: 31px;
+  border-bottom: 1.5px solid rgba(164,172,173);
+
+  &:hover {
+    color: $black;
+    text-decoration: none;
+  }
+
+  &:active {
+    color: black;
+    text-decoration: none;
+  }
+}
+.photocard__button {
+  margin: 0 auto 28px;
+  max-width: 950px;
+}
+.swipe-left__button {
+  background-color: black;
+  padding: 15px;
+  border-radius: 50%;
+  min-width: 60px;
+  height: 60px;
+
+}
+.swipe-right__button {
+  background-color: black;
+  padding: 15px;
+  border-radius: 50%;
+  min-width: 60px;
+  height: 60px;
 }

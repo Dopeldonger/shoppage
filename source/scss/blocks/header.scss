@@ -1,4 +1,4 @@
-.header__wrapper {
+.header {
   display: flex;
   margin: 0 auto 30px auto;
   justify-content: flex-start;
@@ -7,96 +7,5 @@
   padding-top: 7px;
 }
 
-h1 {
-  margin: 0 auto;
-  text-align: center;
-  font-size: 18px;
-  line-height: 22px;
-  font-weight: 500;
-  color: #111111;
-}
 
-.phone {
-  margin: 0 auto 5px;
-  font-weight: 500;
-  color: $orange;
-  text-align: center;
-}
 
-.work-time {
-  margin: 0 0 5px 0;
-  font-size: 14px;
-  font-weight: 500;
-  color: $gray;
-  white-space: nowrap;
-}
-
-.header__info {
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-  padding-top: 20px;
-  padding-left: 10px;
-  width: 100%;
-}
-
-.city {
-  font-size: 14px;
-  font-weight: 300;
-  color: $gray;
-  margin: 0 auto 5px;
-}
-
-.contact {
-  padding-right: 17px;
-  border-right: 1.5px solid rgba(164,172,173, 0.3);
-  width: 220px;
-}
-
-.review-delivery {
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-  padding-top: 13px;
-  margin: 0 61px 0 auto;
-}
-
-.review {
-  margin: 0 10px 0 0;
-}
-
-.delivery {
-  margin: 0;
-}
-
-.review {
-  a {
-    text-decoration: none;
-    color: black;
-  }
-}
-
-.delivery {
-  a {
-    text-decoration: none;
-    color: black;
-  }
-}
-
-.review a:hover {
-  cursor: pointer;
-  color: #FF9846;
-}
-
-.review a:focus {
-  color: #FF9846;
-}
-
-.delivery a:focus {
-  color: #FF9846;
-}
-
-.delivery a:hover {
-  cursor: pointer;
-  color: #FF9846;
-}

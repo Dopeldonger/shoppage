@@ -1,0 +1,38 @@
+.review-delivery {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-top: 13px;
+  margin: 0 61px 0 auto;
+}
+
+.review {
+  margin: 0 10px 0 0;
+}
+
+.delivery {
+  margin: 0;
+}
+
+.review-delivery__link {
+  text-decoration: none;
+  color: black;
+
+  &:hover {
+    cursor: pointer;
+    color: #FF9846;
+  }
+
+  &:focus {
+    color: #FF9846;
+  }
+}
+.search__button {
+  border: none;
+  margin-right: 34px;
+  padding-top: 8px;
+  &:hover {
+    cursor: pointer;
+    color: #FF9846;
+  }
+}

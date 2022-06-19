@@ -1,15 +1,21 @@
 .contacts {
   width: 400px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  row-gap: 5px;
+  display: flex;
+
   padding-left: 20px;
 }
 
-.address {
+.contacts__address {
   color: $gray;
   line-height: 22px;
   margin: 0 auto;
 }
 
-.number {
+.contacts__number {
   color: $gray;
   line-height: 22px;
   margin: 0 auto;

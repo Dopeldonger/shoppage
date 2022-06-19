@@ -4,13 +4,25 @@
   border-radius: 5px;
 }
 
-.cart_tittle {
+.shopping-cart__tittle {
   padding-top: 19px;
-  margin-bottom: 19px;
+  text-align: center;
+  margin: 0 auto 19px;
+  font-family: "DIN Pro", sans-serif;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 18px;
+
 }
 
-.cart_text {
+.shopping-cart__text {
   margin: 0 auto 28px;
+  text-align: center;
+  font-family: "DIN Pro", sans-serif;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 18px;
+  color: #a4acad;
 }
 
 .banner {

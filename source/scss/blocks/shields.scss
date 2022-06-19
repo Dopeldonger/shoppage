@@ -1,8 +1,9 @@
-.shields {
+/* .shields {
   right: 0;
   top: -10px;
-  position: absolute;
-}
+  position: absolute;}*/
+
+
 
 .shields__soon {
   background-color: #EB5757;
@@ -15,14 +16,13 @@
   line-height: 14px;
   border-radius: 10px;
 }
-
-.shields-choose {
-  background-color: #F46D40;
-  font-size: 24px;
-  color: white;
-  font-weight: 500;
-  position: relative;
-  left: 120px;
-  padding: 5px 41px;
-  top: 15px;
+.shield-1 {
+  right: -24px;
+  top: -18px;
+  position: absolute;
+}
+.shield-2 {
+  right: -48px;
+  top: -14px;
+  position: absolute;
 }

@@ -1,11 +1,11 @@
 .communication {
   width: 330px;
   padding: 0 40px;
-  border-left: 0.5px solid gray;
-  border-right: 0.5px solid gray;
+  border-left: 1.5px solid rgba(164,172,173, 0.3);
+  border-right: 1.5px solid rgba(164,172,173, 0.3);
 }
 
-.phone-number {
+.communication__phone-number {
   color: black;
   line-height: 100%;
   font-weight: 500;
@@ -17,13 +17,18 @@
   border: none;
 }
 
-.messenger {
+.communication__messenger {
   color: $gray;
   line-height: 22px;
 }
-.messenger-type {
+.messenger__type {
+  text-decoration: none;
   margin-right: 30px;
+  opacity: 0.5;
   &:last-child {
     margin-right: 0;
+  }
+  &:hover {
+    opacity: 1;
   }
 }
