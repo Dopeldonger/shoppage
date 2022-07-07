@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="./scss/stylesheet.scss">
+</head>
+<body>
+<header>
+    <section class="header-form header-form__wrapper">
+        <div class="return-main-page">
+            <a class="return-main-page__link" href=""><img class="return-main-page__button" src="icon/littleswipe.svg"
+                                                           alt="" width="7" height="11"></a>
+
+            <a href="" class="return-main-page__text">Продолжить выбор</a>
+        </div>
+        <div class="contact-form">
+            <h1 class="contact-form__title">Наш телефон</h1>
+            <p class="contact-form__phone">+996 705 188 955 <br> +996 555 188 955</p>
+            <p class="contact-form__work-time"><img class="icon-clock" src="icon/clock.svg" alt="иконка часов"
+                                                    width="15" height="15">
+                работаем с 10:00 до 00:00</p>
+        </div>
+    </section>
+</header>
+<section class="mainwrapper-form wrapper">
+    <section class="main-form">
+        <div class="forms">
+        <div class="form1">
+        <h1 class="form-tittle">Ваши данные</h1>
+        <div class="user-info__wrapper">
+            <legend class="user-info">
+                <input class="form form-phone" id="phone" placeholder="Телефон">
+                <label class="form-phone__label" for="phone"></label>
+                <input class="form form-name" id="name" placeholder="Имя">
+                <label class="form-name__label" for="name"></label>
+            </legend>
+            <legend class="payment">
+                <div class="radio-container">
+                    <img src="icon/cash.svg" alt="" width="22" height="22">
+                   <input class="radiobutton radiobutton-payment" id="paymentChoice1" type="radio"  name="payment" value="1"
+                          checked>
+                    <label class="radiobutton-payment__label" for="paymentChoice1">Наличными</label>
+                    <img src="icon/card.svg" alt="" width="22" height="22">
+                   <input class="radiobutton radiobutton-payment" id="paymentChoice2" type="radio"  name="payment" value="2">
+                   <label class="radiobutton-payment__label" for="paymentChoice2">Картой</label>
+                </div>
+                <input class="radiobutton radiobutton-change" type="radio" id="change"> Подготовить сдачу с
+                <label class="radiobutton-change__label" for="change"></label>
+                <input class="form form-summ" id="summ" placeholder="Сумма">
+                <label class="form-summ_label" for="summ"></label>
+                <input class="form form-comment" id="comment" placeholder="Комментарий к заказу">
+                <label class="form_comment_label" for="comment"></label>
+            </legend>
+            <p class="additionally">Палочки + соусник обычные</p>
+            <button class="minus__button button"><img src="icon/minus.svg" alt="Минус" width="12" height="2"></button>
+            <p class="amount">10</p>
+            <button class="plus__button button"><img src="icon/plus.svg" alt="Плюс" width="13" height="14"></button>
+            <p class="additionally">Палочки + соусник обычные</p>
+            <button class="minus__button button"><img src="icon/minus.svg" alt="Минус" width="12" height="2"></button>
+            <p class="amount">10</p>
+            <button class="plus__button button"><img src="icon/plus.svg" alt="Плюс" width="13" height="14"></button>
+            <legend class="promo-code">
+                <input class="form form-promo-code" id="promo-code" placeholder="Введите промокод">
+                <label class="form-promo-code__label" for="promo-code"></label>
+            </legend>
+        </div>
+        </div>
+
+    <div class="delivery-info">
+        <legend>
+            <div class="radio-container">
+            <input class="radiobutton radiobutton-delivery" type="radio" id="deliveryChoice1" name="delivery" value="1" checked>
+            <label class="radiobutton-delivery__label" for="deliveryChoice1">Курьером</label>
+            <input class="radiobutton radiobutton-delivery" type="radio" id="deliveryChoice2" name="delivery" value="2">
+            <label class="radiobutton-delivery__label" for="deliveryChoice2">Самовывоз</label>
+            </div>
+        </legend>
+        <legend>
+            <input class="form form-street" id="street" placeholder="Улица">
+            <label class="form-street__label" for="street"></label>
+            <input class="form form-home" id="home" placeholder="Дом">
+            <label class="form-home__label" for="home"></label>
+            <input class="form form-apartment" id="apartment" placeholder="Кв">
+            <label class="form-apartment__label" for="apartment"></label>
+            <input class="form form-entrance" id="entrance" placeholder="Подъезд">
+            <label class="form-entrance__label" for="entrance"></label>
+            <input class="form form-floor" id="floor" placeholder="Этаж">
+            <label class="form-floor__label" for="floor"></label>
+            <input class="form form-code" id="code" placeholder="Код">
+            <label class="form-code__label" for="code"></label>
+           <div class="radio-container">
+            <input class="radiobutton radiobutton-timeChoice" type="radio" id="timeChoice1" name="timeChoice"
+                   value="1" checked>
+            <label class="radiobutton-timeChoice__label"for="timeChoice1">На сейчас</label>
+            <input class="radiobutton radiobutton-timeChoice" type="radio" id="timeChoice2" name="timeChoice" value="2">
+            <label class="radiobutton-timeChoice__label" for="timeChoice2">На время</label>
+           </div>
+            <input class="form form-mail" id="mail" placeholder="E-mail(необязательно)">
+            <label class="form-mail__label" for="mail"></label>
+        </legend>
+    </div>
+    </div>
+        <div class="commission__wrapper">
+            <a class="commission__link-1" href="">Оформить заказ</a>
+            <p class="commission__text">Нажимая на кнопку Оформить заказ, Вы подтверждаете своё согласие на обработку
+                персональных
+                данных в соответствии с <a href="commission__link-2">Публичной офертой</a></p>
+        </div>
+</section>
+
+<section class="side-form">
+    <div class="shopping-cart-form">
+        <h2 class="shopping-cart-form__tittle">Корзина</h2>
+        <div class="shopping-cart-form__content">
+            <img src="img/cart%20contain.jpg" alt="" width="70" height="47">
+            <h3 class="content__tittle">Самая большая Фи...</h3>
+            <button class="minus__button button"><img src="icon/minus.svg" alt="Минус" width="12" height="2"></button>
+            <p class="amount">10</p>
+            <button class="plus__button button"><img src="icon/plus.svg" alt="Плюс" width="13" height="14"></button>
+            <p>170 COM</p>
+        </div>
+    </div>
+    <div class="total">
+        <div class="total-div total__product">
+        <p class="total__text product__text">1 товар</p>
+        <p class="result product-result">170 COM</p>
+    </div>
+        <div class="total-div total__discount">
+            <p class="total__text discount__text">Скидка</p>
+            <p class="result discount-result">0 COM</p>
+        </div>
+        <div class="total-div total__delivery">
+            <p class="total__text delivery__text">Доставка</p>
+            <p class="result delivery-result">Бесплатно</p>
+        </div>
+        <div class="total-div total__total">
+            <p class="total__text">Итого</p>
+            <p class="result result-result">170 COM</p>
+        </div>
+
+    </div>
+</section>
+</section>
+
+
+<footer>
+</footer>
+
+
+</body>
+</html>

@@ -1,0 +1,32 @@
+.form {
+  height: 40px;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.radio-container {
+  display: inline-block;
+  margin-right: 10px;
+}
+.radio-container input[type=radio] {
+  display: none;
+}
+.radio-container label {
+  display: inline-block;
+  cursor: pointer;
+  padding: 10px 30px;
+  line-height: 22px;
+  border-radius: 5px;
+  user-select: none;
+}
+
+.radio-container input[type=radio]:checked + label {
+  background: #FF9846;
+  color: #ffffff;
+}
+.radio-container label:hover {
+  color: #666;
+}
+

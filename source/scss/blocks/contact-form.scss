@@ -1,0 +1,45 @@
+.contact-form__title {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 500;
+  color: #111111;
+}
+
+.contact-form__phone {
+  margin: 0 auto;
+  font-weight: 500;
+  color: $orange;
+  text-align: center;
+}
+
+.contact-form__work-time {
+  margin: 0 0 5px 0;
+  font-size: 14px;
+  font-weight: 500;
+  color: $gray;
+  white-space: nowrap;
+  position: relative;
+}
+
+.return-main-page__button {
+  margin-left: 100px;
+}
+.return-main-page__text {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  &:hover {
+    cursor: pointer;
+    color: #FF9846;
+  }
+
+  &:focus {
+    color: #FF9846;
+  }
+}
+
+.return-main-page__link {
+  text-decoration: none;
+}

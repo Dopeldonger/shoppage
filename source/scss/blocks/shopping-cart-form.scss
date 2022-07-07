@@ -1,0 +1,38 @@
+.shopping-cart-form {
+  background-color: #F2F2F2;
+  max-width: 290px;
+  height: 50px;
+  border-radius: 5px;
+  margin: 0 auto 400px 0;
+
+}
+
+.shopping-cart-form__tittle {
+  padding-top: 19px;
+  text-align: center;
+  margin: 0 auto 20px;
+  font-family: "DIN Pro", sans-serif;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 18px;
+
+}
+
+.shopping-cart-form__content {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+}
+
+.content__tittle {
+   font-weight: 300;
+  font-size: 18px;
+}
+.minus__button {
+}
+.total__total {
+  p {
+    color: #FF9846;
+  }
+}
